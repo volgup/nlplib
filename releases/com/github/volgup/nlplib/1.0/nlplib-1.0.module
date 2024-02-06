@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.volgup",
+    "module": "nlplib",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "nlplib-1.0.aar",
+          "url": "nlplib-1.0.aar",
+          "size": 130113,
+          "sha512": "ca7b2e374bcc21066e86a12612527f7f90e3784ad78ed05dc7421857cfd252f2995b3add498da852eb8063d79633df0505a4a2eddc29ebd708a516d590abd7f0",
+          "sha256": "9d972f0e829d27c82d3e916c4ecdad91f9215b675fb43a326d027f5007918316",
+          "sha1": "36f46f65a351f412105bdabf02a8130bb670514c",
+          "md5": "5e41f8a4411b2f75d202088def0d7a28"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nlplib-1.0.aar",
+          "url": "nlplib-1.0.aar",
+          "size": 130113,
+          "sha512": "ca7b2e374bcc21066e86a12612527f7f90e3784ad78ed05dc7421857cfd252f2995b3add498da852eb8063d79633df0505a4a2eddc29ebd708a516d590abd7f0",
+          "sha256": "9d972f0e829d27c82d3e916c4ecdad91f9215b675fb43a326d027f5007918316",
+          "sha1": "36f46f65a351f412105bdabf02a8130bb670514c",
+          "md5": "5e41f8a4411b2f75d202088def0d7a28"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nlplib-1.0-sources.jar",
+          "url": "nlplib-1.0-sources.jar",
+          "size": 56706,
+          "sha512": "af677932d92cc3181db844c5ba0f2fdc8b2446e04bcc03ca319d4e2604ea2651dd5864a2b6e6e78611a00e7f415ea446053e72c7a8b0f57c9731452750fe3c75",
+          "sha256": "0d9d7038f723dded4ce5d29dd66bda96408ee031a2235fc7b4a90fbb7b3d267e",
+          "sha1": "d572a4d36bd41df099fe96e981a38e3b7ec3980f",
+          "md5": "23a574c9a5dfeb7b6cbe0d1a350bc10d"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nlplib-1.0-javadoc.jar",
+          "url": "nlplib-1.0-javadoc.jar",
+          "size": 475693,
+          "sha512": "2b01d5dd95c72811439477c831c0cafc7fd1d5350c71dc066b545e68e5e7a5f00a94295fb73fc77b2dda0c7449b650b994b06586683333b148e268374a4dcb64",
+          "sha256": "dcfe6e48f5f7060651a8ff39907d87b5f55f865d4e81e54866af98c7ed2ca97a",
+          "sha1": "7c1bde306081fb86ab5bcd5d0b5ca23005b5a5e7",
+          "md5": "c04c416a16a80d060db967125cef585f"
+        }
+      ]
+    }
+  ]
+}
