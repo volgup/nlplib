@@ -11,7 +11,7 @@ Network Location Provider can use in POS device and smart android device sdk .
 3. view and analyze carrier phase (if it is present in the log file).
 
 ## Install the library
-    implementation ('com.github.volgup:nlplib:1.0@aar') { transitive = true }
+   implementation ('com.github.volgup:nlplib:1.0@aar') { transitive = true }
 
 Or if the library is to be used only for debug builds and not release builds, then
 
@@ -23,7 +23,7 @@ Add repository maven url, If required to find repositories version:
     {
         google()
         maven {
-            url "https://github.com/volgup/NLPLoc"
+           url "https://github.com/volgup/nlplib/tree/main/releases/com/github/volgup/nlplib"
         }
     }
 
